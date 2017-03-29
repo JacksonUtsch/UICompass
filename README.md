@@ -12,3 +12,6 @@ To use the compass use code like so:
                 myCompass.center.y -= myCompass.frame.height/2 // Centers y of view
                 self.view.addSubview(myCompass)
         }
+
+## NOTE:
+The compass requires a physical device to properly run as the framework uses hardware inside the device to determine direction.
